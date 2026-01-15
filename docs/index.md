@@ -1,0 +1,29 @@
+# Welcome to Trove
+
+## About
+
+Trove is a collection of links to practical, hands-on FHIR Terminology and SNOMED CT resources. There is also a smattering of stuff I have created myself.
+
+Trove is a playful spin on a comment made by a colleague who said he was told that I have the most recent trove of exercises or related materials that could be reused/referenced for a Connectathon. 
+
+
+
+## Glossary
+
+* **ECL (Expression Constraint Language)** is a formal, declarative language for defining precise, computable subsets of clinical meanings within SNOMED CT, allowing rich querying and constraint definition for tasks like restricting EHR data, building value sets (e.g., for FHIR), and defining reference sets by specifying relationships and attributes between concepts. ECL expressions are executable rules that define intensional sets, enabling powerful data analysis and interoperability by precisely identifying groups of related clinical concepts. 
+
+* **Intensional value set** defines a group of SNOMED CT concepts using a logical rule or algorithm, rather than listing every single code, allowing it to dynamically update as new codes are added. For example, it could be defined as "all descendants of the 'Diabetes' concept". 
+
+* **Extensional value set** a predefined, explicit list of specific concepts in a value set. The value set can only contain those enumerated values and cannot change without redefining the logical definition of the valueset.
+
+
+
+## Links
+
+### ECL (Expression Constraint Language)
+* [What is ECL?](https://docs.snomed.org/snomed-ct-user-guides/snomed-ct-browser-guide/faqs/the-expression-constraint-language-ecl) - SNOMED Internationals definitive documentation
+* [Shrimp ECL Builder](https://ontoserver.csiro.au/shrimp/ecl/?fhir=https://r4.ontoserver.csiro.au/fhir) - SNOMED CT ECL Builder tool shipped with Ontoserver Terminology Server 
+* [ECL Builder](https://ecl-builder.vercel.app/) - A UI to build ECL expressions from CSIRO AEHRC
+* [ECL Expression Tester](https://ecl-tester.onrender.com/) - A repository of testable ECL expressions by myself
+* [SNOMED Expression Constraint Language Examples](https://github.com/IHTSDO/snomed-expression-constraint-language/tree/main/examples) - Examples of SNOMED CT ECL expressions produced by SNOMED International
+* [ECL Formatter](https://mattcordell.github.io/ecl-formatter/) - A tool to make ECL expressions more readable by Matt Cordell from CSIRO AEHRC
