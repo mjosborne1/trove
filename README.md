@@ -59,6 +59,20 @@ mkdocs build
 
 The output will be in the `site/` directory.
 
+### Deploying to GitHub Pages
+
+To deploy the site to GitHub Pages:
+```bash
+mkdocs gh-deploy
+```
+
+This command will:
+1. Build the documentation
+2. Push the site to the `gh-pages` branch
+3. GitHub will automatically serve it at `https://mjosborne1.github.io/trove/`
+
+**Note:** Ensure your repository is set up with GitHub Pages enabled on the `gh-pages` branch in your repository settings.
+
 ## Structure
 
 ```
