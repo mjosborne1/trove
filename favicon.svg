@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Treasure chest/collection icon -->
+  <defs>
+    <linearGradient id="chestGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#654321;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gemGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B6B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C92A2A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gemGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4ECDC4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1B9A96;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gemGradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <circle cx="100" cy="100" r="100" fill="#F8F9FA"/>
+  
+  <!-- Chest body -->
+  <rect x="40" y="80" width="120" height="70" rx="5" fill="url(#chestGradient)"/>
+  
+  <!-- Chest lid -->
+  <ellipse cx="100" cy="80" rx="60" ry="20" fill="#A0522D"/>
+  <path d="M 40 80 Q 40 60 100 50 Q 160 60 160 80" fill="#8B4513"/>
+  
+  <!-- Metal bands on chest -->
+  <rect x="35" y="95" width="130" height="4" fill="#DAA520" opacity="0.7"/>
+  <rect x="35" y="130" width="130" height="4" fill="#DAA520" opacity="0.7"/>
+  
+  <!-- Lock -->
+  <circle cx="100" cy="115" r="8" fill="#DAA520" stroke="#B8860B" stroke-width="2"/>
+  <path d="M 96 111 L 96 108 Q 96 104 100 104 Q 104 104 104 108 L 104 111" fill="none" stroke="#B8860B" stroke-width="2"/>
+  
+  <!-- Gems/Resources inside -->
+  <!-- Red gem -->
+  <polygon points="65,105 70,95 75,105 70,115" fill="url(#gemGradient1)"/>
+  <polygon points="65,105 70,100 75,105 70,110" fill="#FF8E8E" opacity="0.6"/>
+  
+  <!-- Teal gem -->
+  <polygon points="100,110 108,95 116,110 108,125" fill="url(#gemGradient2)"/>
+  <polygon points="100,110 106,100 112,110 106,120" fill="#6EDDD4" opacity="0.6"/>
+  
+  <!-- Gold gem -->
+  <polygon points="130,105 137,92 144,105 137,118" fill="url(#gemGradient3)"/>
+  <polygon points="130,105 135,96 140,105 135,114" fill="#FFED4E" opacity="0.6"/>
+  
+  <!-- Shine effects -->
+  <ellipse cx="75" cy="85" rx="15" ry="8" fill="white" opacity="0.3"/>
+</svg>
