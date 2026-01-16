@@ -1,5 +1,8 @@
-theme: cinder
 site_name: Trove
+theme:
+  name: cinder
+  favicon: favicon.svg
 nav:
-  - Home: index.md
+  - Home: index.md  
+  - ECL Examples: ecl_examples.md
   - About Me: about.md

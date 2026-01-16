@@ -4,11 +4,11 @@ I am Michael Osborne, a self-confessed terminology nerd. I've been working with 
 
 ## Professional Background
 
-I'm currently employed at CSIRO and working on terminology for FHIR Implementation Guides.
+Since 2023, I've been employed at CSIRO AEHRC to work on terminology artifacts in FHIR Implementation Guides for the Sparked FHIR Accelerator project.
 
 ## Expertise
 
-My main expertise is with Pathology and Radiology systems, HL7 V2 and FHIR. I've been on the SNOMED International Content Committee and Modeling Advisory Group. I frequently contribute to LOINC forums and have been a LOINC mapper and user since 2001.
+My main expertise is with Pathology and Radiology systems, HL7 V2 and FHIR. I've been on the SNOMED International Content Committee and Modeling Advisory Group. I've contributed to LOINC and have been a LOINC mapper and user since 2001. I also frequent the FHIR chat forum, [Zulip](https://chat.fhir.org/). 
 
 ## Interests
 
@@ -16,5 +16,6 @@ I'm passionate about using terminology servers to improve terminology usability.
 
 ## Contact
 
-[email](mailto:mjosborne1@gmail.com)
-[linked in](https://www.linkedin.com/in/osbornemichael/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B4KnoTQXuQtq74U69fzXZsQ%3D%3D)
+- [Email](mailto:mjosborne1@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/osbornemichael)
+- [Zulip](https://chat.fhir.org/#narrow/dm/192047-Michael-Osborne)
