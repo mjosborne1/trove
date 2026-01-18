@@ -4,9 +4,6 @@
 
 Trove is a collection of links to practical, hands-on FHIR Terminology and SNOMED CT resources. There is also a smattering of stuff I have created myself.
 
-Trove is a playful spin on a comment made by a colleague who said he was told that I have the most recent trove of exercises or related materials that could be reused/referenced for a Connectathon. 
-
-
 
 ## Glossary
 
