@@ -128,14 +128,14 @@
 
 <h1 id="welcome-to-trove">Welcome to Trove</h1>
 <h2 id="about">About</h2>
-<p>Trove is a collection of links to practical, hands-on FHIR Terminology and SNOMED CT resources. There is also a smattering of stuff I have created myself.</p>
+<p>Trove is a collection of links to practical, hands-on FHIR Terminology and SNOMED CT resources. <a href="/ecl_examples">ECL Examples</a> are largely drawn from the <a href="https://github.com/IHTSDO/snomed-expression-constraint-language/tree/main/examples">SNOMED Expression Constraint Language Examples</a>, which is an open source starter set for learning ECL. </p>
 <h2 id="glossary">Glossary</h2>
 <ul>
 <li>
 <p><strong>ECL (Expression Constraint Language)</strong> is a formal, declarative language for defining precise, computable subsets of clinical meanings within SNOMED CT, allowing rich querying and constraint definition for tasks like restricting EHR data, building value sets (e.g., for FHIR), and defining reference sets by specifying relationships and attributes between concepts. ECL expressions are executable rules that define intensional sets, enabling powerful data analysis and interoperability by precisely identifying groups of related clinical concepts. </p>
 </li>
 <li>
-<p><strong>Intensional value set</strong> defines a group of SNOMED CT concepts using a logical rule or algorithm, rather than listing every single code, allowing it to dynamically update as new codes are added. For example, it could be defined as "all descendants of the 'Diabetes' concept". </p>
+<p><strong>Intensional value set</strong> defines a group of SNOMED CT concepts using a logical rule or algorithm, rather than listing every single code, allowing it to dynamically update as new codes are added. For example, a 'Diabetes ValueSet' could be defined as "all descendants of the 'Diabetes' concept". </p>
 </li>
 <li>
 <p><strong>Extensional value set</strong> a predefined, explicit list of specific concepts in a value set. The value set can only contain those enumerated values in the expansion. The value set expansion cannot change without redefining the logical definition of the valueset. For example a 'Gender Identity ValueSet' might contain explicitly stated concepts for 'Female gender identity', 'Male gender identity' and 'Non-binary gender identity'. </p>
@@ -255,5 +255,5 @@
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2026-01-18 22:15:18.247061+00:00
+Build Date UTC : 2026-01-18 23:38:09.932141+00:00
 -->
