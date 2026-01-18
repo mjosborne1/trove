@@ -2,7 +2,7 @@
 
 ## About
 
-Trove is a collection of links to practical, hands-on FHIR Terminology and SNOMED CT resources. [ECL Examples](/ecl_examples) are largely drawn from the [SNOMED Expression Constraint Language Examples](https://github.com/IHTSDO/snomed-expression-constraint-language/tree/main/examples), which is an open source starter set for learning ECL. 
+Trove is a collection of links to practical, hands-on FHIR Terminology and SNOMED CT resources. [ECL Examples](ecl_examples) are largely drawn from the [SNOMED Expression Constraint Language Examples](https://github.com/IHTSDO/snomed-expression-constraint-language/tree/main/examples), which is an open source starter set for learning ECL. 
 
 
 ## Glossary
