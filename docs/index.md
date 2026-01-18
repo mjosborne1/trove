@@ -2,14 +2,14 @@
 
 ## About
 
-Trove is a collection of links to practical, hands-on FHIR Terminology and SNOMED CT resources. There is also a smattering of stuff I have created myself.
+Trove is a collection of links to practical, hands-on FHIR Terminology and SNOMED CT resources. [ECL Examples](/ecl_examples) are largely drawn from the [SNOMED Expression Constraint Language Examples](https://github.com/IHTSDO/snomed-expression-constraint-language/tree/main/examples), which is an open source starter set for learning ECL. 
 
 
 ## Glossary
 
 * **ECL (Expression Constraint Language)** is a formal, declarative language for defining precise, computable subsets of clinical meanings within SNOMED CT, allowing rich querying and constraint definition for tasks like restricting EHR data, building value sets (e.g., for FHIR), and defining reference sets by specifying relationships and attributes between concepts. ECL expressions are executable rules that define intensional sets, enabling powerful data analysis and interoperability by precisely identifying groups of related clinical concepts. 
 
-* **Intensional value set** defines a group of SNOMED CT concepts using a logical rule or algorithm, rather than listing every single code, allowing it to dynamically update as new codes are added. For example, it could be defined as "all descendants of the 'Diabetes' concept". 
+* **Intensional value set** defines a group of SNOMED CT concepts using a logical rule or algorithm, rather than listing every single code, allowing it to dynamically update as new codes are added. For example, a 'Diabetes ValueSet' could be defined as "all descendants of the 'Diabetes' concept". 
 
 * **Extensional value set** a predefined, explicit list of specific concepts in a value set. The value set can only contain those enumerated values in the expansion. The value set expansion cannot change without redefining the logical definition of the valueset. For example a 'Gender Identity ValueSet' might contain explicitly stated concepts for 'Female gender identity', 'Male gender identity' and 'Non-binary gender identity'. 
 
