@@ -150,15 +150,15 @@
 <h2 id="basic-examples">Basic Examples</h2>
 <h3 id="11-self">1.1 Self</h3>
 <p>Reference to a specific concept by its identifier.</p>
-<pre><code>404684003 |clinical finding|
+<pre><code>404684003 |Clinical finding|
 </code></pre>
 <h3 id="12-descendant-of">1.2 Descendant Of</h3>
 <p>Matches all descendants of the specified concept.</p>
-<pre><code>&lt; 404684003 |clinical finding|
+<pre><code>&lt; 404684003 |Clinical finding|
 </code></pre>
 <h3 id="13-descendant-or-self-of">1.3 Descendant Or Self Of</h3>
 <p>Matches the concept itself and all its descendants.</p>
-<pre><code>&lt;&lt; 73211009 |diabetes mellitus|
+<pre><code>&lt;&lt; 73211009 |Diabetes mellitus|
 </code></pre>
 <h3 id="14-ancestor-of">1.4 Ancestor Of</h3>
 <p>Matches all ancestors of the specified concept.</p>
@@ -178,25 +178,25 @@
 </code></pre>
 <h3 id="18-child-of">1.8 Child Of</h3>
 <p>Matches the direct children of the specified concept.</p>
-<pre><code>&lt;! 404684003 |clinical finding|
+<pre><code>&lt;! 404684003 |Clinical finding|
 </code></pre>
 <h3 id="19-parent-of">1.9 Parent Of</h3>
 <p>Matches the direct parents of the specified concept.</p>
-<pre><code>&gt;! 40541001 |acute pulmonary edema|
+<pre><code>&gt;! 40541001 |Acute pulmonary edema|
 </code></pre>
 <h2 id="intermediate-examples">Intermediate Examples</h2>
 <h3 id="21-attribute">2.1 Attribute</h3>
 <p>Specifies a constraint with a single attribute and value.</p>
-<pre><code>&lt; 19829001 |disorder of lung|: 
-    116676008 |associated morphology| = 79654002 |edema|
+<pre><code>&lt; 19829001 |Disorder of lung|: 
+    116676008 |Associated morphology| = 79654002 |edema|
 </code></pre>
 <h3 id="22-attribute-group">2.2 Attribute Group</h3>
 <p>Groups multiple attributes together, where all attributes in a group must be satisfied together.</p>
 <pre><code>&lt; 404684003 |clinical finding|:
-    { 363698007 |finding site| = &lt;&lt; 39057004 |pulmonary valve structure|,
-      116676008 |associated morphology| = &lt;&lt; 415582006 |stenosis| },
-    { 363698007 |finding site| = &lt;&lt; 53085002 |right ventricular structure|,
-      116676008 |associated morphology| = &lt;&lt; 56246009 |hypertrophy| }
+    { 363698007 |Finding site| = &lt;&lt; 39057004 |Pulmonary valve structure|,
+      116676008 |Associated morphology| = &lt;&lt; 415582006 |Stenosis| },
+    { 363698007 |Finding site| = &lt;&lt; 53085002 |Right ventricular structure|,
+      116676008 |Associated morphology| = &lt;&lt; 56246009 |Hypertrophy| }
 </code></pre>
 <h3 id="23-term-filter">2.3 Term Filter</h3>
 <p>Filters concepts by matching disease Causative agents and a text Term filter</p>
@@ -208,13 +208,13 @@
 </code></pre>
 <h3 id="26-attribute-constraint-operator">2.6 Attribute Constraint Operator</h3>
 <p>Constrains attribute values using operators like descendant-or-self.</p>
-<pre><code>&lt;&lt; 404684003 |clinical finding|:
-    &lt;&lt; 47429007 |associated with| = &lt;&lt; 267038008 |edema|
+<pre><code>&lt;&lt; 404684003 |Clinical finding|:
+    &lt;&lt; 47429007 |Associated with| = &lt;&lt; 267038008 |Oedema|
 </code></pre>
 <h3 id="27-any-attribute-name-value">2.7 Any Attribute Name Value</h3>
 <p>Uses wildcard to match any attribute with a specific value.</p>
-<pre><code>&lt; 404684003 |clinical finding|:
-    * = 79654002 |edema|
+<pre><code>&lt; 404684003 |Clinical finding|:
+    * = 79654002 |Oedema|
 </code></pre>
 <h3 id="28-dotted-attributes">2.8 Dotted Attributes</h3>
 <p>Chains attributes together using dot notation to navigate through nested relationships.</p>
