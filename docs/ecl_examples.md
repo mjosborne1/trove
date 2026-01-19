@@ -9,7 +9,7 @@ This page contains examples of Expression Constraint Language (ECL) expressions 
 Reference to a specific concept by its identifier.
 
 ```
-404684003 |clinical finding|
+404684003 |Clinical finding|
 ```
 
 ### 1.2 Descendant Of
@@ -17,7 +17,7 @@ Reference to a specific concept by its identifier.
 Matches all descendants of the specified concept.
 
 ```
-< 404684003 |clinical finding|
+< 404684003 |Clinical finding|
 ```
 
 ### 1.3 Descendant Or Self Of
@@ -25,7 +25,7 @@ Matches all descendants of the specified concept.
 Matches the concept itself and all its descendants.
 
 ```
-<< 73211009 |diabetes mellitus|
+<< 73211009 |Diabetes mellitus|
 ```
 
 ### 1.4 Ancestor Of
@@ -65,7 +65,7 @@ Matches any concept in SNOMED CT.
 Matches the direct children of the specified concept.
 
 ```
-<! 404684003 |clinical finding|
+<! 404684003 |Clinical finding|
 ```
 
 ### 1.9 Parent Of
@@ -73,7 +73,7 @@ Matches the direct children of the specified concept.
 Matches the direct parents of the specified concept.
 
 ```
->! 40541001 |acute pulmonary edema|
+>! 40541001 |Acute pulmonary edema|
 ```
 
 ## Intermediate Examples
@@ -83,8 +83,8 @@ Matches the direct parents of the specified concept.
 Specifies a constraint with a single attribute and value.
 
 ```
-< 19829001 |disorder of lung|: 
-    116676008 |associated morphology| = 79654002 |edema|
+< 19829001 |Disorder of lung|: 
+    116676008 |Associated morphology| = 79654002 |edema|
 ```
 
 ### 2.2 Attribute Group
@@ -93,10 +93,10 @@ Groups multiple attributes together, where all attributes in a group must be sat
 
 ```
 < 404684003 |clinical finding|:
-    { 363698007 |finding site| = << 39057004 |pulmonary valve structure|,
-      116676008 |associated morphology| = << 415582006 |stenosis| },
-    { 363698007 |finding site| = << 53085002 |right ventricular structure|,
-      116676008 |associated morphology| = << 56246009 |hypertrophy| }
+    { 363698007 |Finding site| = << 39057004 |Pulmonary valve structure|,
+      116676008 |Associated morphology| = << 415582006 |Stenosis| },
+    { 363698007 |Finding site| = << 53085002 |Right ventricular structure|,
+      116676008 |Associated morphology| = << 56246009 |Hypertrophy| }
 ```
 
 ### 2.3 Term Filter
@@ -120,8 +120,8 @@ References all left-sided body structure concepts
 Constrains attribute values using operators like descendant-or-self.
 
 ```
-<< 404684003 |clinical finding|:
-    << 47429007 |associated with| = << 267038008 |edema|
+<< 404684003 |Clinical finding|:
+    << 47429007 |Associated with| = << 267038008 |Oedema|
 ```
 
 ### 2.7 Any Attribute Name Value
@@ -129,8 +129,8 @@ Constrains attribute values using operators like descendant-or-self.
 Uses wildcard to match any attribute with a specific value.
 
 ```
-< 404684003 |clinical finding|:
-    * = 79654002 |edema|
+< 404684003 |Clinical finding|:
+    * = 79654002 |Oedema|
 ```
 
 
