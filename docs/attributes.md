@@ -1,7 +1,7 @@
 # SNOMED CT Attributes
 
-SNOMED CT currently uses over 50 defining attributes to model concept definitions.
-Each SNOMED CT attribute can usually be applied to one hierarchy and for a few attributes to more than one hierarchy. The hierarchy or hierarchies to which an attribute can be applied are referred to as the “domain” of the attribute. Each attribute can be given a limited set of values; this set of values is called the “range” of the attribute. A sample of these are demonstrated below.
+SNOMED CT currently uses over 50 defining attributes to model concept definitions. SNOMED CT defining attributes are relationship types used to represent inherent, necessary characteristics of a concept's meaning, forming part of its logical definition. 
+The hierarchy or hierarchies to which an attribute can be applied are referred to as the “domain” of the attribute. Each attribute can be given a limited set of values; this set of values is called the “range” of the attribute. A sample of these are demonstrated below.
 
 ## Attribute Domain and Range Examples
 
