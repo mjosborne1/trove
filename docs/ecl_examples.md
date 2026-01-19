@@ -33,7 +33,7 @@ Matches the concept itself and all its descendants.
 Matches all ancestors of the specified concept.
 
 ```
-> 40541001 |acute pulmonary edema|
+> 40541001 |Acute pulmonary oedema|
 ```
 
 ### 1.5 Ancestor Or Self Of
@@ -41,15 +41,15 @@ Matches all ancestors of the specified concept.
 Matches the concept itself and all its ancestors.
 
 ```
->> 40541001|acute pulmonary edema|
+>> 40541001|Acute pulmonary oedema|
 ```
 
 ### 1.6 Member Of
 
-Matches all concepts that are members of the specified reference set.
+Matches all concepts that are members of the Problem/Diagnosis reference set.
 
 ```
-^ 700043003 |example problem list concepts reference set |
+^ 933600511000036109 |Problem/Diagnosis reference set|
 ```
 
 ### 1.7 Any
