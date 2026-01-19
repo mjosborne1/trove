@@ -5,4 +5,5 @@ theme:
 nav:
   - Home: index.md  
   - ECL Examples: ecl_examples.md
+  - Attributes: attributes.md
   - About Me: about.md

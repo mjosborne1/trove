@@ -7,11 +7,18 @@ Trove is a collection of links to practical, hands-on FHIR Terminology and SNOME
 
 ## Glossary
 
+* **Domain** is the hierarchy to which a specific SNOMED CT attribute can be applied. For example a Procedure has a PROCEDURE MORPHOLOGY, but does not have an ASSOCIATED MORPHOLOGY, which is in the domain of the Clinical finding hierarchy. Domain and it's partner, Range, are so critical to ECL, they have a dedicated tutorial.
+
 * **ECL (Expression Constraint Language)** is a formal, declarative language for defining precise, computable subsets of clinical meanings within SNOMED CT, allowing rich querying and constraint definition for tasks like restricting EHR data, building value sets (e.g., for FHIR), and defining reference sets by specifying relationships and attributes between concepts. ECL expressions are executable rules that define intensional sets, enabling powerful data analysis and interoperability by precisely identifying groups of related clinical concepts. 
+
+* **Extensional value set** a predefined, explicit list of specific concepts in a value set. The value set can only contain those enumerated values in the expansion. The value set expansion cannot change without redefining the logical definition of the valueset. For example a 'Gender Identity ValueSet' might contain explicitly stated concepts for 'Female gender identity', 'Male gender identity' and 'Non-binary gender identity'. 
 
 * **Intensional value set** defines a group of SNOMED CT concepts using a logical rule or algorithm, rather than listing every single code, allowing it to dynamically update as new codes are added. For example, a 'Diabetes ValueSet' could be defined as "all descendants of the 'Diabetes' concept". 
 
-* **Extensional value set** a predefined, explicit list of specific concepts in a value set. The value set can only contain those enumerated values in the expansion. The value set expansion cannot change without redefining the logical definition of the valueset. For example a 'Gender Identity ValueSet' might contain explicitly stated concepts for 'Female gender identity', 'Male gender identity' and 'Non-binary gender identity'. 
+* **Range** is the set of values allowed for each SNOMED CT attribute. For example, the Range for ASSOCIATED MORPHOLOGY is Morphologically abnormal structure (morphologic abnormality) and its descendents. Domain and Range are so critical to ECL, they have a dedicated tutorial.
+
+* **Reference Set** is a set of SNOMED CT Concepts for a particular purpose. Some examples are: to represent subsets of concepts; to indicate language/dialect preferences; to represent maps to or from other code systems. For example, a Reference Set (RefSet for short) might contain all body sites that are direct sites for surgical procedures.
+
 
 
 
