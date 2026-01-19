@@ -4,6 +4,6 @@ theme:
   favicon: favicon.svg
 nav:
   - Home: index.md  
-  - ECL Examples: ecl_examples.md
   - Attributes: attributes.md
+  - ECL Examples: ecl_examples.md
   - About Me: about.md

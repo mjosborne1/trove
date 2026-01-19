@@ -17,5 +17,5 @@ The hierarchy or hierarchies to which an attribute can be applied are referred t
 | Procedure | Procedure site (363704007) | Anatomical structure | `< 71388002 |Procedure| : `<br>` << 363704007 |Procedure site| = << 39057004 |Pulmonary valve structure| ` |
 | Procedure | Using device (424226004) | Device | `< 71388002 |Procedure| : `<br>` << 424226004 |Using device| = << 90412006 |Colonoscope|` |
 
-Note:  These are common examples but authoritative domain/range constraints are defined in the [SNOMED CT Editorial Guide](https://docs.snomed.org/snomed-ct-specifications/snomed-ct-editorial-guide/readme/authoring/domain-specific-modeling).
+Note:  The authoritative domain/range constraints for attributes are defined in the [SNOMED CT Editorial Guide](https://docs.snomed.org/snomed-ct-specifications/snomed-ct-editorial-guide/readme/authoring/domain-specific-modeling).
 
